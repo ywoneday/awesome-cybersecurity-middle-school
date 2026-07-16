@@ -16,6 +16,7 @@
 - [Interactive Learning Tools](#interactive-learning-tools)
 - [CTF & Competition Platforms](#ctf--competition-platforms)
 - [SEED Security Labs](#seed-security-labs)
+- [Community & Teacher Notes](#community--teacher-notes)
 - [Resources by Unit](#resources-by-unit)
   - [Unit 1: Introduction to Security](#unit-1-introduction-to-security)
   - [Unit 2: Securing Spaces](#unit-2-securing-spaces)
@@ -289,6 +290,18 @@ Capture The Flag (CTF) platforms are the single most effective way to engage mid
 
 For the full lab listing with AP unit mapping and middle school adaptation notes, see:
 - 📄 [SEED Labs Details](docs/seed-labs.md)
+
+---
+
+## Community & Teacher Notes
+
+Shared notes and resources from fellow AP Cybersecurity educators.
+
+| Resource | Description | Link |
+|---|---|---|
+| **Robert's Cybersecurity Padlet** | Unit-by-unit class notes and attachments from APSI training, organized by AP unit (Units 1–4). Shared by Robert from HQIS. | [padlet.com/robertvischer/cybersecurity](https://padlet.com/robertvischer/cybersecurity) |
+
+> 💡 **Have your own notes to share?** Open an issue or pull request — we'd love to add your resources here too!
 
 ---
 
