@@ -15,6 +15,7 @@
 - [Curriculum Platforms & Textbooks](#curriculum-platforms--textbooks)
 - [Interactive Learning Tools](#interactive-learning-tools)
 - [CTF & Competition Platforms](#ctf--competition-platforms)
+- [SEED Security Labs](#seed-security-labs)
 - [Resources by Unit](#resources-by-unit)
   - [Unit 1: Introduction to Security](#unit-1-introduction-to-security)
   - [Unit 2: Securing Spaces](#unit-2-securing-spaces)
@@ -107,6 +108,8 @@ For the full framework (learning objectives, topic details, sample questions), s
 | **APCSP Exam Prep** | Free practice exams, study guides, and daily practice for AP CSA, CSP, and Cybersecurity. | [apcsexamprep.com](https://www.apcsexamprep.com/) |
 | **Teacher Yang's AP Cybersecurity Course** | Online courseware site developed by Teacher Yang from Wuxi, covering AP Cybersecurity topics with lessons and materials. | [learn.orzy.top/courses/ap-cybersecurity](https://learn.orzy.top/courses/ap-cybersecurity) |
 | **eMates Cybersecurity** | Interactive cybersecurity learning module. | [eMates](https://d2hie3dpn9wvbb.cloudfront.net/page0/cybersecurity.html) |
+| **SEED Security Labs** | 40+ hands-on cybersecurity labs from Syracuse University, covering software, network, web, crypto, and system security. Free lab instructions, VM, PPT slides, and a Chinese textbook. Used by 1000+ schools in 65 countries. | [seedsecuritylabs.org](https://seedsecuritylabs.org/) |
+| **《计算机安全导论：深度实践》** | Chinese textbook by Prof. Wenliang Du (杜文亮), pairing theory with SEED labs. Published by 高等教育出版社 (2020). | [handsonsecurity.net/chinese](https://www.handsonsecurity.net/chinese/index.html) |
 
 ---
 
@@ -160,6 +163,132 @@ Capture The Flag (CTF) platforms are the single most effective way to engage mid
 | **CyLab Academy** | Intermediate | CMU's online cybersecurity learning and assessment platform. | [cylabacademy.org](https://www.cylabacademy.org/) |
 
 > 💡 **Teaching Tip:** For middle school, start with **picoCTF** — it has a gentle learning curve, built-in hints, and challenges sorted by difficulty. CyberPatriot is excellent for team-based learning and teaches practical OS hardening skills.
+
+---
+
+## SEED Security Labs
+
+[SEED Labs](https://seedsecuritylabs.org/) (SEcurity EDucation) is a hands-on lab platform developed by Prof. Wenliang Du at Syracuse University, covering 40+ labs across 7 categories. All lab instructions, VM images, and lecture slides are free. Used by 1000+ schools in 65 countries.
+
+> 💡 **For Middle School:** SEED labs are college-level, but many are adaptable. Web Security and Cryptography labs are the most accessible entry points. Use the provided PPT slides to teach concepts, then select guided labs for hands-on practice.
+
+### Lab Environment
+
+| Component | Description | Link |
+|---|---|---|
+| **Lab Instructions** | All 40+ lab guides (HTML/PDF), organized by category | [seedsecuritylabs.org/Labs_20.04](https://seedsecuritylabs.org/Labs_20.04/) |
+| **Pre-built VM** | SEED Ubuntu 20.04 VirtualBox image (4 GB), all tools pre-configured | [seedsecuritylabs.org/labsetup](https://seedsecuritylabs.org/labsetup.html) |
+| **Apple Silicon (M1/M2)** | VMware Fusion setup guide for ARM-based Macs | [GitHub — seed-labs](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/seedvm-fusion.md) |
+| **Cloud VM** | Run SEED labs on cloud (Google Cloud, AWS, etc.) — minimal 1 CPU / 2 GB RAM | [Cloud Setup Guide](https://github.com/seed-labs/seed-labs/blob/master/manuals/cloud/seedvm-cloud.md) |
+
+### Labs by Category
+
+| Category | AP Unit | # of Labs | Middle School Suitability |
+|---|---|---|---|
+| **Web Security** | Unit 5 | 5 | ★★★ Most accessible — guided, pre-built vulnerable apps |
+| **Cryptography** | Unit 5 | 8 | ★★★ Concepts teachable via PPT; select labs for practice |
+| **Network Security** | Unit 3 | 13 | ★★ ARP/TCP attacks are engaging; requires networking basics |
+| **Software Security** | Unit 4 | 9 | ★ Requires C/assembly — advanced students only |
+| **System Security** | Unit 4 | 2 | ★ Meltdown/Spectre — very advanced |
+| **Blockchain** | Unit 5 | 3 | ★★ Smart contract attacks; needs blockchain background |
+| **Mobile Security** | Unit 4 | 2 | ⚠ Deprecated — no longer supported |
+
+<details>
+<summary><b>Web Security Labs</b> (Unit 5: Securing Applications and Data) — click to expand</summary>
+
+| Lab | Description | PPT Slides | Lab Link |
+|---|---|---|---|
+| Cross-Site Scripting (XSS) | Launch XSS attacks on a web app; experiment with countermeasures | [Slides](https://www.handsonsecurity.net/files/slides/W03_Web_XSS.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Web/Web_XSS_Elgg/) |
+| Cross-Site Request Forgery (CSRF) | Launch CSRF attacks; experiment with countermeasures | [Slides](https://www.handsonsecurity.net/files/slides/W02_Web_CSRF.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Web/Web_CSRF_Elgg/) |
+| SQL Injection | Launch SQL injection attacks; experiment with countermeasures | [Slides](https://www.handsonsecurity.net/files/slides/W04_Web_SQL_Injection.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Web/Web_SQL_Injection/) |
+| Clickjacking | Launch clickjacking attacks on a cupcakes website | [Slides](https://www.handsonsecurity.net/files/slides/W05_Web_Clickjacking.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Web/Web_Clickjacking_Cupcakes/) |
+| Shellshock | Exploit the Shellshock vulnerability (discovered 2014) | [Slides](https://www.handsonsecurity.net/files/slides/W06_Shellshock.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Web/Shellshock/) |
+
+</details>
+
+<details>
+<summary><b>Cryptography Labs</b> (Unit 5: Securing Applications and Data) — click to expand</summary>
+
+| Lab | Description | PPT Slides | Lab Link |
+|---|---|---|---|
+| Secret-Key Encryption | Explore secret-key encryption and its applications using OpenSSL | [Slides](https://www.handsonsecurity.net/files/slides/C01_Secret_Key_Encryption.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Crypto/Crypto_Encryption/) |
+| One-Way Hash Function | MD5 collision attack & hash length extension attack | [Slides](https://www.handsonsecurity.net/files/slides/C02_One_Way_Hash.pptx) | [Lab 1](https://seedsecuritylabs.org/Labs_20.04/Crypto/Crypto_MD5_Collision/) / [Lab 2](https://seedsecuritylabs.org/Labs_20.04/Crypto/Crypto_Hash_Length_Ext/) |
+| Public-Key Encryption (RSA) | Implement RSA for encryption, decryption, signing, and verification | [Slides](https://www.handsonsecurity.net/files/slides/C03_Public_Key_Encryption.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Crypto/Crypto_RSA/) |
+| PKI (Public Key Infrastructure) | Explore PKI, digital signatures, and certificates using OpenSSL | [Slides](https://www.handsonsecurity.net/files/slides/C04_PKI.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Crypto/Crypto_PKI/) |
+| TLS (Transport Layer Security) | Write TLS client, server, and proxy in Python | [Slides](https://www.handsonsecurity.net/files/slides/C05_TLS.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Crypto/Crypto_TLS/) |
+| Padding Oracle Attack | Conduct padding oracle attack to derive secret messages | — | [Lab](https://seedsecuritylabs.org/Labs_20.04/Crypto/Crypto_Padding_Oracle/) |
+| Pseudo Random Number Generation | Generate cryptographically strong random numbers | — | [Lab](https://seedsecuritylabs.org/Labs_20.04/Crypto/Crypto_Random_Number/) |
+
+</details>
+
+<details>
+<summary><b>Network Security Labs</b> (Unit 3: Securing Networks) — click to expand</summary>
+
+| Lab | Description | PPT Slides | Lab Link |
+|---|---|---|---|
+| Packet Sniffing & Spoofing | Sniff and spoof packets using Python and C | [Slides](https://www.handsonsecurity.net/files/slides/N04_Sniffing_Spoofing.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Networking/Sniffing_Spoofing/) |
+| ARP Cache Poisoning | ARP cache poisoning & man-in-the-middle attacks | [Slides](https://www.handsonsecurity.net/files/slides/N02_MAC_ARP.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Networking/ARP_Attack/) |
+| ICMP Redirect Attack | IP-layer attacks, ICMP redirect, and MITM | [Slides](https://www.handsonsecurity.net/files/slides/N03_IP_ICMP.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Networking/ICMP_Redirect/) |
+| TCP Attacks | Session hijacking, SYN flooding, TCP reset attacks | [Slides](https://www.handsonsecurity.net/files/slides/N06_TCP.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Networking/TCP_Attacks/) |
+| The Mitnick Attack | Classic Mitnick attack — a special case of TCP session hijacking | — | [Lab](https://seedsecuritylabs.org/Labs_20.04/Networking/Mitnick_Attack/) |
+| DNS Attacks (5 labs) | Local DNS attack, remote DNS attack, DNS rebinding, DNS infrastructure, DNSSEC | [Slides](https://www.handsonsecurity.net/files/slides/N10_DNS.pptx) | [DNS Labs](https://seedsecuritylabs.org/Labs_20.04/Networking/DNS/DNS_Local/) |
+| Firewall Exploration | Build a packet-filter firewall; experiment with Linux firewall | [Slides](https://www.handsonsecurity.net/files/slides/N07_Firewalls.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Networking/Firewall/) |
+| Firewall Evasion | Bypass firewalls using port forwarding and VPN | [Slides](https://www.handsonsecurity.net/files/slides/N09_Tunneling.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Networking/Firewall_Evasion/) |
+| VPN Tunneling | Build a simple VPN using TUN/TAP interface | [Slides](https://www.handsonsecurity.net/files/slides/N08_VPN.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Networking/VPN_Tunnel/) |
+| BGP Exploration & Attack | Configure BGP, launch BGP attacks using Internet simulator | [Slides](https://www.handsonsecurity.net/files/slides/N12_BGP.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Networking/BGP/BGP_Exploration_Attack/) |
+| Morris Worm | Write a simple Internet worm and test it in an emulator | — | [Lab](https://seedsecuritylabs.org/Labs_20.04/Networking/Morris_Worm/) |
+| Heartbleed Attack | Steal secrets from a remote server via Heartbleed vulnerability | [Slides](https://www.handsonsecurity.net/files/slides/N13_Heartbleed.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Networking/Heartbleed/) |
+
+</details>
+
+<details>
+<summary><b>Software Security Labs</b> (Unit 4: Securing Devices) — click to expand</summary>
+
+| Lab | Description | PPT Slides | Lab Link |
+|---|---|---|---|
+| Environment Variable & Set-UID | Attacks on privileged Set-UID root programs; risks of environment variables | [Slides](https://www.handsonsecurity.net/files/slides/S02_SetUID.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Environment_Variable_and_SetUID/) |
+| Buffer Overflow (Set-UID) | Exploit buffer-overflow in privileged Set-UID programs | [Slides](https://www.handsonsecurity.net/files/slides/S04_Buffer_Overflow.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Buffer_Overflow_Setuid/) |
+| Buffer Overflow (Server) | Exploit buffer-overflow in a server program | [Slides](https://www.handsonsecurity.net/files/slides/S04_Buffer_Overflow.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Buffer_Overflow_Server/) |
+| Return-to-Libc Attack | Defeat non-executable stack countermeasure using return-to-libc technique | [Slides](https://www.handsonsecurity.net/files/slides/S05_Return_to_Libc.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Return_to_Libc/) |
+| Shellcode Development | Write shellcode from scratch | [Slides](https://www.handsonsecurity.net/files/slides/S09_Shellcode.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Shellcode/) |
+| Format String Vulnerability | Exploit format string vulnerability to crash, steal info, and inject code | [Slides](https://www.handsonsecurity.net/files/slides/S06_Format_String.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Format_String/) |
+| Race Condition Vulnerability | Exploit race condition in privileged programs | [Slides](https://www.handsonsecurity.net/files/slides/S07_Race_Condition.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Race_Condition/) |
+| Dirty COW Attack | Exploit Linux kernel Dirty COW vulnerability to gain root | [Slides](https://www.handsonsecurity.net/files/slides/S08_DirtyCOW_Attack.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/Software/Dirty_COW/) |
+
+</details>
+
+<details>
+<summary><b>System Security Labs</b> (Unit 4: Securing Devices) — click to expand</summary>
+
+| Lab | Description | PPT Slides | Lab Link |
+|---|---|---|---|
+| Meltdown Attack | Exploit Meltdown vulnerability in Intel CPUs | [Slides](https://www.handsonsecurity.net/files/slides/H01_MeltdownSpectre.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/System/Meltdown_Attack/) |
+| Spectre Attack | Exploit Spectre vulnerability in Intel CPUs | [Slides](https://www.handsonsecurity.net/files/slides/H01_MeltdownSpectre.pptx) | [Lab](https://seedsecuritylabs.org/Labs_20.04/System/Spectre_Attack/) |
+
+</details>
+
+<details>
+<summary><b>Blockchain Security Labs</b> (Unit 5: Securing Applications and Data) — click to expand</summary>
+
+| Lab | Description | Lab Link |
+|---|---|---|
+| Blockchain Exploration | Learn blockchain basics: accounts, wallets, transactions, blocks | [Lab](https://seedsecuritylabs.org/Labs_20.04/Blockchain/Blockchain_Exploration/) |
+| Smart Contract | Learn smart contract development, deployment, and invocation | [Lab](https://seedsecuritylabs.org/Labs_20.04/Blockchain/Smart_Contract/) |
+| Smart Contract Reentrancy Attack | Exploit reentrancy vulnerability in smart contracts | [Lab](https://seedsecuritylabs.org/Labs_20.04/Blockchain/Reentrancy_Attack/) |
+
+</details>
+
+### Teaching Resources
+
+| Resource | Description | Link |
+|---|---|---|
+| **Lecture Slides (PPT)** | Complete PPT slide decks for all SEED topics, organized by category | [handsonsecurity.net/resources](https://www.handsonsecurity.net/resources.html) |
+| **Video Courses (Udemy)** | Full video lectures by Prof. Du — Computer Security, Network Security, Web Security, Cryptography | [Udemy — Computer Security](https://www.udemy.com/course/du-computer-security/?referralCode=A22952E661213A336573&couponCode=SEED2026A0708) |
+| **Chinese Textbook** | 《计算机安全导论：深度实践》by 杜文亮 — pairs theory with SEED labs. 高等教育出版社 (2020). ISBN: 9787040538823 | [handsonsecurity.net/chinese](https://www.handsonsecurity.net/chinese/index.html) |
+| **SEED GitHub** | Source code, VM build scripts, and lab setup documentation | [github.com/seed-labs](https://github.com/seed-labs/seed-labs) |
+
+For the full lab listing with AP unit mapping and middle school adaptation notes, see:
+- 📄 [SEED Labs Details](docs/seed-labs.md)
 
 ---
 
@@ -218,6 +347,7 @@ Each unit below includes the official topic breakdown plus curated resources ali
 **Key Resources:**
 - 🔧 [CyberChef](https://cyberchef.org/) — analyze network data, decode protocols
 - 🔧 [CWIS Threat Actors Guide](https://cwsisecurity.com/a-guide-to-cyber-threat-actors/) — understand network adversary types
+- 🔬 [SEED Network Security Labs](https://seedsecuritylabs.org/Labs_20.04/Networking/) — 13 labs: packet sniffing, ARP/TCP/DNS attacks, firewalls, VPN, BGP (★★ middle school suitability)
 
 ---
 
@@ -234,6 +364,7 @@ Each unit below includes the official topic breakdown plus curated resources ali
 
 **Key Resources:**
 - 🔧 [Have I Been Pwned](https://haveibeenpwned.com/) — password strength & breach checking
+- 🔬 [SEED Software Security Labs](https://seedsecuritylabs.org/Labs_20.04/Software/) — 9 labs: Set-UID, buffer overflow, format string, race condition, Dirty COW (★ advanced, requires C/assembly)
 - 💡 The **FRQ (Device Security Analysis)** is directly tied to this unit — practice analyzing device configs, permissions, and logs. See [Exam Preparation](#exam-preparation).
 
 ---
@@ -258,6 +389,8 @@ Each unit below includes the official topic breakdown plus curated resources ali
 - 🔧 [Google Gruyere](https://google-gruyere.appspot.com/) — hands-on XSS/XSRF for Topic 5.5
 - 🔧 [xkcd: SQL Injection](https://xkcd.com/327/) — fun hook for injection attacks
 - 🔧 [CyberChef](https://cyberchef.org/) — encode/decode/encrypt data for cryptography topics
+- 🔬 [SEED Web Security Labs](https://seedsecuritylabs.org/Labs_20.04/Web/) — 5 labs: XSS, CSRF, SQL injection, clickjacking, Shellshock (★★★ most accessible for middle school)
+- 🔬 [SEED Cryptography Labs](https://seedsecuritylabs.org/Labs_20.04/Crypto/) — 8 labs: encryption, hashing, RSA, PKI, TLS (★★★ concepts teachable via PPT)
 
 ---
 
