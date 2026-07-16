@@ -21,7 +21,6 @@
   - [Unit 3: Securing Networks](#unit-3-securing-networks)
   - [Unit 4: Securing Devices](#unit-4-securing-devices)
   - [Unit 5: Securing Applications and Data](#unit-5-securing-applications-and-data)
-- [Teaching Materials & Labs](#teaching-materials--labs)
 - [Podcasts, Videos & Media](#podcasts-videos--media)
 - [Professional Development](#professional-development)
 - [Exam Preparation](#exam-preparation)
@@ -262,31 +261,6 @@ Each unit below includes the official topic breakdown plus curated resources ali
 
 ---
 
-## Teaching Materials & Labs
-
-### APSI Training Materials
-
-Materials collected during AP Summer Institute training. See [Resource Inventory](docs/resource-inventory.md) for a detailed file listing.
-
-| Category | Contents |
-|---|---|
-| **Course Planning** | APSI Scope & Sequence (2026–2027), Course Planning Suite, Unit 1 Calendar/Pacing |
-| **AP Classroom** | Lesson slide decks (.pptx), activity zips, unit-level CED PDFs for all 5 units |
-| **AP Cybersecurity Stories** | 24 scenario PDFs across 5 units — authentic, real-world cybersecurity situations |
-| **Paradigm Cyber Ventures** | Course Summary, Instructional Strategies Guide, Resource Guide, CTF Guide, Competition Guide, lab facilitation guides |
-| **Outsmart Cyberthreats** | Student book + Teacher's Guide (NSA/NSF-funded) |
-| **Labs (无锡老师)** | 29 lab PDFs across 5 units (unit1: 2, unit2: 6, unit3: 7, unit4: 6, unit5: 8) |
-| **Assessments (无锡老师)** | 5 unit review PDFs (unit1–unit5) |
-| **Practice Exams** | Student Guide (SG) & Test Bank (TB) — MCQ + FRQ for Practice Exam 1 |
-| **Class Exercises** | Lesson plans, posters, expert team planning activities |
-
-### Teaching Guide
-
-For pacing suggestions, lesson planning tips, and the scope & sequence breakdown, see:
-- 📄 [Teaching Guide](docs/teaching-guide.md)
-
----
-
 ## Podcasts, Videos & Media
 
 | Resource | Description | Link |
@@ -316,7 +290,7 @@ For pacing suggestions, lesson planning tips, and the scope & sequence breakdown
 | **AP Cybersecurity CED** | Contains sample MCQ and FRQ questions with scoring guidelines |
 | **APCSP Exam Prep** | [apcsexamprep.com](https://www.apcsexamprep.com/) — free practice exams and study guides |
 | **Fiveable** | [fiveable.me](https://fiveable.me/) — unit study guides and daily practice |
-| **Practice Exams (SG/TB)** | Student Guide & Test Bank practice exams (MCQ + FRQ) — available in teaching materials |
+| **Practice Exams (SG/TB)** | Student Guide & Test Bank practice exams (MCQ + FRQ) |
 | **FRQ Focus: Device Security Analysis** | Practice analyzing: security policies, firewall configurations, file-system permissions, and log files. Students must cite evidence and explain reasoning. |
 
 ### FRQ Task Verbs
