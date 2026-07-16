@@ -106,6 +106,7 @@ For the full framework (learning objectives, topic details, sample questions), s
 | **CS168 Textbook** | Free online textbook covering cybersecurity fundamentals. | [textbook.cs168.io](https://textbook.cs168.io/) |
 | **Fiveable — AP Cybersecurity** | Free study guides, unit guides, and daily practice for AP Cybersecurity. | [fiveable.me](https://fiveable.me/) |
 | **APCSP Exam Prep** | Free practice exams, study guides, and daily practice for AP CSA, CSP, and Cybersecurity. | [apcsexamprep.com](https://www.apcsexamprep.com/) |
+| **Teacher Yang's AP Cybersecurity Course** | Online courseware site developed by Teacher Yang from Wuxi, covering AP Cybersecurity topics with lessons and materials. | [learn.orzy.top/courses/ap-cybersecurity](https://learn.orzy.top/courses/ap-cybersecurity) |
 | **eMates Cybersecurity** | Interactive cybersecurity learning module. | [eMates](https://d2hie3dpn9wvbb.cloudfront.net/page0/cybersecurity.html) |
 
 ---
@@ -180,8 +181,6 @@ Each unit below includes the official topic breakdown plus curated resources ali
 | 1.5 | Leveraging AI in Cyber Defense |
 
 **Key Resources:**
-- 📖 AP Cybersecurity Stories: "Understanding Social Engineering," "Suspicious Website Logins," "Best Practices for Public Networks," "AI-Based Cybersecurity Attacks," "Leveraging AI in Cyber Defense"
-- 🎓 Paradigm: Unit 1 slides & labs (Cybersecurity Course Summary)
 - 🔧 [Have I Been Pwned](https://haveibeenpwned.com/) — demonstrate real breach impact
 - 🔧 [Darknet Diaries](https://darknetdiaries.com/) — true cybercrime stories (preview episodes for age-appropriateness)
 - 🔧 [CWIS Threat Actors Guide](https://cwsisecurity.com/a-guide-to-cyber-threat-actors/) — understand adversary types
@@ -200,9 +199,8 @@ Each unit below includes the official topic breakdown plus curated resources ali
 | 2.4 | Detecting Physical Attacks |
 
 **Key Resources:**
-- 📖 AP Cybersecurity Stories: "Cyber Foundations," "Physical Vulnerabilities and Attacks," "Protecting Physical Spaces," "Detecting Physical Attacks"
-- 🎓 AP Classroom: Lesson 2.1 Analyzing Cyberattacks (slide deck + activity zip), Lesson 2.3 Protecting Spaces
-- 📝 Scope & Sequence: Includes CK-provided lesson "Analyzing Cyber Attacks" (2.1.B/C)
+- 🔧 [Darknet Diaries](https://darknetdiaries.com/) — real-world physical security breach stories (preview for age-appropriateness)
+- 🔧 [CWIS Threat Actors Guide](https://cwsisecurity.com/a-guide-to-cyber-threat-actors/) — understand adversary types and attack phases
 
 ---
 
@@ -219,12 +217,8 @@ Each unit below includes the official topic breakdown plus curated resources ali
 | 3.5 | Detecting Network Attacks |
 
 **Key Resources:**
-- 📖 AP Cybersecurity Stories: All 5 topics (3.1–3.5)
-- 🎓 Paradigm: "Networking Unit 7 (AP Unit 3)" slides + Nmap Vulnerability Lab (Teacher Guide)
-- 🎓 Paradigm: "Phone Troubleshooting Net Sprint" facilitation guide (networking)
-- 🎓 AP Classroom: Lesson 3.1 Context Is Everything, Lesson 3.5 Analyzing Network Logs
 - 🔧 [CyberChef](https://cyberchef.org/) — analyze network data, decode protocols
-- 📝 Labs (无锡老师): unit3 — 7 lab lessons covering network topics
+- 🔧 [CWIS Threat Actors Guide](https://cwsisecurity.com/a-guide-to-cyber-threat-actors/) — understand network adversary types
 
 ---
 
@@ -240,12 +234,8 @@ Each unit below includes the official topic breakdown plus curated resources ali
 | 4.4 | Detecting Attacks on Devices |
 
 **Key Resources:**
-- 📖 AP Cybersecurity Stories: All 4 topics (4.1–4.4)
-- 🎓 AP Classroom: Lesson 4.1 Server Vulnerability Risk Assessment, Lesson 4.2 Let's Make Secure Passwords
-- 🎓 Paradigm: Nmap lab guides (vulnerability scanning)
-- 📝 Labs (无锡老师): unit4 — 6 lab lessons
 - 🔧 [Have I Been Pwned](https://haveibeenpwned.com/) — password strength & breach checking
-- 💡 The **FRQ (Device Security Analysis)** is directly tied to this unit — practice analyzing device configs, permissions, and logs.
+- 💡 The **FRQ (Device Security Analysis)** is directly tied to this unit — practice analyzing device configs, permissions, and logs. See [Exam Preparation](#exam-preparation).
 
 ---
 
@@ -263,15 +253,12 @@ Each unit below includes the official topic breakdown plus curated resources ali
 | 5.6 | Detecting Attacks on Data and Applications |
 
 **Key Resources:**
-- 📖 AP Cybersecurity Stories: All 6 topics (5.1–5.6)
-- 🎓 AP Classroom: Lesson 5.2 Setting Access Controls, Lesson 5.4 Asymmetric Cryptography
 - 🔧 [Blockchain Hash Demo](https://andersbrownworth.com/blockchain/hash) — visualize hashing for Topic 5.3
 - 🔧 [Cryptosystem Demo](https://www.kerryveenstra.com/cryptosystem.html) — symmetric vs. asymmetric for Topic 5.4
 - 🔧 [Hacksplaining](https://www.hacksplaining.com/lessons) — web app vulnerabilities for Topic 5.1/5.5
 - 🔧 [Google Gruyere](https://google-gruyere.appspot.com/) — hands-on XSS/XSRF for Topic 5.5
 - 🔧 [xkcd: SQL Injection](https://xkcd.com/327/) — fun hook for injection attacks
-- 📝 Labs (无锡老师): unit5 — 8 lab lessons (the most labs of any unit)
-- 📝 Class Exercise: "Crack the Code" expert team planning activity (Software & System Vulnerabilities)
+- 🔧 [CyberChef](https://cyberchef.org/) — encode/decode/encrypt data for cryptography topics
 
 ---
 
