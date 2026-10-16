@@ -357,6 +357,10 @@ Each unit below includes the official topic breakdown plus curated resources ali
 | 3.4 | Protecting Networks: Firewalls |
 | 3.5 | Detecting Network Attacks |
 
+| Classroom Resource | Level | Description |
+|---|---|---|
+| [Topic 3.2 — Interactive Lecture](resources/unit3/topic-3-2-interactive/README.md) | Beginner | Free, offline 37-slide HTML presentation on managerial controls and wireless security, with animated diagrams, teacher notes, and Wi-Fi/VPN discussion examples. |
+
 **Key Resources:**
 - 🔧 [CyberChef](https://cyberchef.org/) — analyze network data, decode protocols
 - 🔧 [CWIS Threat Actors Guide](https://cwsisecurity.com/a-guide-to-cyber-threat-actors/) — understand network adversary types
